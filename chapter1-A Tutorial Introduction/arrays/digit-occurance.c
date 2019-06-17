@@ -4,6 +4,8 @@
 int main()
 {
 	int c, i, nwhite, nother;
+	// Designated Initializer: int num[5]={ [0 . . . 4 ] = 3 };               // num = { 3, 3, 3, 3, 3}
+	// Designated Initializer: int num[  ]={ [0 . . . 4 ] = 3 };               // num = { 3, 3, 3, 3, 3}
 	int ndigit[10];
 	
 	nwhite = nother = 0;
